@@ -1,0 +1,148 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-container{
+    background-color: #00001B;
+    display: flex;
+    height: 8em;
+    width: 100vw;
+}
+
+.navbar1{
+    display: flex;
+}
+
+.navbar1 img{
+    margin-top: 2em;
+    width :15em;
+    height: 5em;
+    margin-left: 24em;
+}
+
+.logo img{
+ width: 1.6em;
+ height: 1.5em;
+ margin-top: 50px;
+ gap: 2px;
+ margin-left: 1em;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10em;
+    
+}
+
+
+.search-bar {
+    width: 15em;
+    height: 2.5em;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #14112b;
+    border-radius: 2em;
+    background-color: #1A1A2A;
+}
+
+.search-button {
+    width: 7em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 1em;
+   background-color: #00001B;
+   color: aliceblue;
+}
+
+.sign-up{
+    width: 7em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 1em;
+
+    background-color: #5758FF;   
+}
+
+.sign-up:hover{
+    background-color: #0B163B;
+    color: whitesmoke;
+}
+
+.search-button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.navbar-features {
+    margin-top: 1px;
+    background-color:#00001B;
+    height: 5em;
+    width: 100vw;
+    font-family:  Arial, Helvetica, sans-serif ;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: row;
+    color:white ;
+    gap: 3.3em;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-below-navbar2 p {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height :2.5em;
+    background-color: #0B163B;
+    color: antiquewhite; 
+    font-size: 1em;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 0px;  
+}
+
+.card1 img {
+    width: 100vw;
+    height: 27em;
+    margin-top: 0px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.card1 p {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    
+}
+
+.p1 p {
+    font-size: 1.1em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    margin-top: 17em;
+    
+}
+
+/* button {
+    background-color: #5758FF;
+    width: 4.5em;
+    height: 2em;
+} */
+
+
+
